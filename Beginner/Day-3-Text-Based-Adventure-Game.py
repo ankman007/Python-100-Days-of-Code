@@ -2,7 +2,7 @@ from Modules import PyArt
 
 print(PyArt.treasure)
 
-print('''           
+print('''            
 *********************************************************************************************************
 You're a fearless explorer on a quest for the legendary Pearl of Revia, a treasure lost to time. Destiny 
 leads you to Skagos, a rugged island teeming with fierce creatures and flesh-eating inhabitants. Legends 
