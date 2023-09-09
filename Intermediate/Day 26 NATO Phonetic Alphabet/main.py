@@ -9,7 +9,7 @@ def generate_phonetic():
     try:
         output_list = [phonetic_dict[letter] for letter in word]
     except KeyError as error:
-        print(f'{error} is an invalid letter')
+        print(f'{error} is an invalid letter.')
         generate_phonetic()
     else:
         print(output_list)
