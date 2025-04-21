@@ -1,8 +1,8 @@
 import random
 
-from Modules import PyArt
+from Beginner.Modules import py_art
 
-print(PyArt.number_guessing_game)
+print(py_art.number_guessing_game)
 
 print('Welcome to Number Guessing Game!')
 number_to_guess = random.randint(1, 101)

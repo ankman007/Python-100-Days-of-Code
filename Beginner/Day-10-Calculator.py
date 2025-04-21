@@ -1,6 +1,6 @@
-from Modules import PyArt
+from Beginner.Modules import py_art
 
-print(PyArt.calculator_logo)
+print(py_art.calculator_logo)
 
 
 def add(n1, n2):

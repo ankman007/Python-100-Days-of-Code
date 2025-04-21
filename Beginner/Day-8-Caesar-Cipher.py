@@ -1,6 +1,7 @@
-from Modules import PyArt, Data
+from Beginner.Modules import py_art
+from Modules import Data
 
-print(PyArt.caesar_cypher)
+print(py_art.caesar_cypher)
 print(Data.alphabet)
 
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt: ")

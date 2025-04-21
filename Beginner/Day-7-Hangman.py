@@ -1,7 +1,8 @@
 import random
-from Modules import Data, PyArt
+from Beginner.Modules import py_art
+from Modules import Data
 
-print(PyArt.hangman)
+print(py_art.hangman)
 word_chosen = random.choice(Data.word_list)
 word_length = len(word_chosen)
 display = ['_'] * word_length
@@ -32,7 +33,7 @@ while not end_of_the_game:
     if user_choice_letter not in word_chosen:
         no_of_lives -= 1
         print(f'\nYour guessed "{user_choice_letter}", that letter is not in the word. You lose a life.')
-        print(PyArt.stages[no_of_lives])
+        print(py_art.stages[no_of_lives])
 
         if no_of_lives <= 0:
             print(f'\n\nThe word was {word_chosen}.')

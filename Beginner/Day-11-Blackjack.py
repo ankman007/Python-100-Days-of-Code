@@ -1,5 +1,5 @@
 import random
-from Modules import PyArt
+from Beginner.Modules import py_art
 
 
 def deal_card():
@@ -41,7 +41,7 @@ def compare(user_score, computer_score):
 
 
 def play_game():
-    print(PyArt.blackjack)
+    print(py_art.blackjack)
 
     user_cards = []
     computer_cards = []

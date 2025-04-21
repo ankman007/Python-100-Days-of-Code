@@ -1,6 +1,6 @@
-from Modules import PyArt
+from Beginner.Modules import py_art
 
-print(PyArt.treasure)
+print(py_art.treasure)
 
 print('''             
 *********************************************************************************************************

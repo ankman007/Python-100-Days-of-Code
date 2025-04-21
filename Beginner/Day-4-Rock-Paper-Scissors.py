@@ -1,9 +1,9 @@
 import random
-from Modules import PyArt
+from Beginner.Modules import py_art
 
-rock = PyArt.rock
-paper = PyArt.paper
-scissors = PyArt.scissors
+rock = py_art.rock
+paper = py_art.paper
+scissors = py_art.scissors
 
 user_choice_num = int(input('''
 What do you want to choose?

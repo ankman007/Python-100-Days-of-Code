@@ -1,4 +1,5 @@
-from Modules import PyArt, Data
+from Beginner.Modules import py_art
+from Modules import Data
 import random
 
 
@@ -16,14 +17,14 @@ def determine_higher_follower(account1, account2, score_count):
 
 score = 0
 correct_answer = True
-print(PyArt.higher_lower_logo)
+print(py_art.higher_lower_logo)
 
 while correct_answer:
     ig_account1 = random.choice(Data.ig_details)
     ig_account2 = random.choice(Data.ig_details)
 
     print(f"Compare A: {ig_account1['name']}, {ig_account1['description']}, from {ig_account1['country']}.", end='')
-    print(PyArt.vs)
+    print(py_art.vs)
     print(f"Compare B: {ig_account2['name']}, {ig_account2['description']}, from {ig_account2['country']}.")
 
     user_choice = input('\nWho has more followers? [ A / B ]\n')
